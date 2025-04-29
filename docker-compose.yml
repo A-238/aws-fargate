@@ -1,5 +1,6 @@
 services:
   terraform:
+    container_name: terraform
     image: hashicorp/terraform:1.11.4
     volumes:
       - ~/.aws:/root/.aws:ro 
