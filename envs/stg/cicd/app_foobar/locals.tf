@@ -1,4 +1,4 @@
 locals {
-  name_prefix = "example"
+  name_prefix  = "example"
   service_name = "foobar"
 }
