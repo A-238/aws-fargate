@@ -20,3 +20,13 @@ variable "azs" {
     }
   }
 }
+
+variable "enable_nat_gateway" {
+  type    = bool
+  default = false
+}
+
+variable "single_nat_gateway" {
+  type    = bool
+  default = false
+}
